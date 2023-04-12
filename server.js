@@ -1,5 +1,5 @@
 const express = require("express");
-require('./config/dbConnection')
+const mongoose = require('./config/dbConnection')
 const app = express();
 const cors = require("cors");
 const route = require("./routes/route");
